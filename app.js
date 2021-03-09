@@ -1,9 +1,43 @@
 const person={
     firstName: "Steve",
+    lastName: "Smith",
+    age: 30,
+    hobbies: ["music","sports","reading"],
+    email: "steve@aol.com",
+    address:{
+        city:"Miami",
+        state:"FL"
+    },
+    getBirthYear: function(){
+        return 2017 - this.age;
+    }
 
 }
 
 let val;
+
+val = person.lastName;
+val= person["firstName"];
+
+val=person.age;
+
+val=person.hobbies[1];
+val=person.address["city"];
+val=person.getBirthYear();
+
+
+console.log(val);
+
+document.body.innerHTML = val;
+
+
+const people = [
+    {name:'John', age:30},
+    {name:'Mike', age:24}
+]
+for (let i=0; i<people.length; i++){
+    console.log(people[i].name);
+}
 
 
 // // const name ="John";

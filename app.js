@@ -1,3 +1,37 @@
+//Window METHOD /OBJECTs
+
+// window.console.log(123);
+// window.alert("HEllo world");
+
+// const input = prompt();
+// alert(input);
+
+//confirm
+// if(confirm("Are you sure")){
+//     console.log("YES");
+// } else {
+//     console.log("NO");
+// }
+
+// let val;
+// val =window.outerWidth;
+// val =window.outerHeight;
+// val=window.innerHeight;
+// val = window.innerWidth;
+// // console.log(val);
+
+// valu = window.scrollX; //not working
+// valu = window.location;
+// valu = window.location.href;
+// valu = window.location.search;
+// console.log(valu);
+
+// window.location.href = "http://amazon.in";
+// window.location.reload();
+window.history.go();
+
+
+
 //looping in arrays
 
 // const cars= ["Ford", "Hondo", "Toyota", "Chevrolett"];
@@ -19,7 +53,7 @@
 // cars.forEach(function(car, index,array){
 //     if(cars.indexOf(car) ==1){
 //         console.log(`${index}:${car}`);
-//     }
+//     }  
 //     console.log(array);
 // })
 

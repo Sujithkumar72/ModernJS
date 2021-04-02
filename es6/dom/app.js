@@ -1,40 +1,62 @@
-let val;
+// console.log(document.getElementById("task-title"));
 
-val = document;
-val = document.all;
-val = document.all[2];
-val = document.all.length;
-val = document.head;
-val = document.body;
-val = document.doctype;
-val = document.domain;
-val = document.URL;
-val = document.characterSet;
-val = document.contentType;
+// console.log(document.getElementById("task-title").id);
+// console.log(document.getElementById("task-title").className);
 
-val = document.forms;
-val = document.forms[0];
-val = document.forms[0].id;
-val = document.forms[0].method;
-val = document.forms[0].action;
+// document.getElementById("task-title").style.background ="#333";
+// document.getElementById("task-title").style.color="#fff";
+// document.getElementById("task-title").style.padding = "5px";
 
-val = document.links;
-val = document.links[0];
-val = document.links[0].id;
-val = document.links[0].className;
-val = document.links[0].classList[0];
 
-val = document.images;
+// document.getElementById("task-title").textContent ="task-list";
+// document.getElementById("task-title").innerText ="My Tasks";
+// document.getElementById("task-title").innerHTML="<h2 style='color:red'>Task List </h2>";
 
-val = document.scripts;
-val = document.scripts[2].getAttribute('src');
+//document.querySelector()
 
-let scripts = document.scripts;
 
-let scriptsArr = Array.from(scripts);
+console.log(document.querySelector("#task-title"));
+console.log(document.querySelector(".card-title"));
+console.log(document.querySelector("h5"));
+document.querySelector("li").style.color ="red";
+document.querySelector("ul li").style.color ="green";
+document.querySelector("li:last-child").style.color ="green";
+document.querySelector("li:nth-child(3)").style.color ="red";
+document.querySelector("li:nth-child(odd)").style.background ="violet";
+document.querySelector("li:nth-child(even)").style.background ="gray";
 
-scriptsArr.forEach(function(script) {
-  console.log(script.getAttribute('src'));
-});
+// let val;
+// val = document;
+// val =document.all;
+// val= document.all[1];
+// val=document.all.length;
+// val=document.head;
+// val=document.body;
+// val=document.doctype;
+// val=document.domain;
+// val=document.URL;
+// val=document.charset;
+// val =document.contentType;
+// val=document.forms;
+// val=document.forms[0];
+// val=document.forms[0].id;
+// val=document.forms[0].method;
+// val=document.forms[0].action;
+// val=document.links;
+// val=document.links[0];
+// val=document.links[0].id;
+// val=document.links[0].classList;
+// val==document.links[0].className;
+// val=document.images;
+// val=document.scripts;
+// val=document.scripts[2];
+// val=document.scripts[2].getAttribute("src");
+// let scripts =document.scripts;
+// let scriptArray= Array.from(scripts);
 
-console.log(val);
+// scriptArray.forEach(function(script){
+//   console.log(script);
+// });
+
+
+// console.log(val);

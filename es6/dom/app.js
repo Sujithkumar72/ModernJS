@@ -1,3 +1,39 @@
+let val;
+const list =document.querySelector("ul.collection");
+console.log(list);
+const listItem = document.querySelector("li.collection-item:first-child");
+val = listItem;
+val= list;
+
+
+val = list.childNodes;
+
+val=list.children[1];
+val=list.firstChild;
+val=list.firstElementChild;
+
+console.log(val);
+
+// const item = document.getElementsByClassName("collection-item");
+// // console.log(item);
+// // console.log(item[0]);
+// item[0].style.color="red";
+// item[0].textContent="Hello";
+// const listItems =document.querySelector("ul").getElementsByClassName("collection-item");
+// console.log(listItems);
+// const lister = Array.from(listItems);
+// listItems.forEach(function(listItem, index){
+//   console.log(`${index}: listItem`);
+// });
+
+
+
+
+// const nodeList = document.querySelectorAll("li:nth-child(odd)");
+// console.log(nodeList);
+// nodeList.forEach(function(node, index){
+//   console.log(`${index}: node`);
+// });
 // console.log(document.getElementById("task-title"));
 
 // console.log(document.getElementById("task-title").id);
@@ -15,15 +51,15 @@
 //document.querySelector()
 
 
-console.log(document.querySelector("#task-title"));
-console.log(document.querySelector(".card-title"));
-console.log(document.querySelector("h5"));
-document.querySelector("li").style.color ="red";
-document.querySelector("ul li").style.color ="green";
-document.querySelector("li:last-child").style.color ="green";
-document.querySelector("li:nth-child(3)").style.color ="red";
-document.querySelector("li:nth-child(odd)").style.background ="violet";
-document.querySelector("li:nth-child(even)").style.background ="gray";
+// console.log(document.querySelector("#task-title"));
+// console.log(document.querySelector(".card-title"));
+// console.log(document.querySelector("h5"));
+// document.querySelector("li").style.color ="green";
+// document.querySelector("ul li").style.color ="red";
+// document.querySelector("li:last-child").style.color ="green";
+// document.querySelector("li:nth-child(1)").style.color ="black";
+// document.querySelector("li:nth-child(even)").style.color ="red";
+// document.querySelector("li:nth-child(4)").style.color ="red";
 
 // let val;
 // val = document;

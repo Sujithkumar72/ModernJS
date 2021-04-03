@@ -1,18 +1,57 @@
-let val;
-const list =document.querySelector("ul.collection");
-console.log(list);
-const listItem = document.querySelector("li.collection-item:first-child");
-val = listItem;
-val= list;
+const form = document.querySelector("form");
+const taskInput = document.getElementById("task");
+const heading = document.querySelector("h5");
+taskInput.value = "";
+// form.addEventListener("submit", runEvent);
+// taskInput.addEventListener("keyup", runEvent);
+taskInput.addEventListener("focus", runEvent)
+function runEvent(e){
+    heading.innerText = e.target.value;
+    console.log(`EVENT TYPE: ${e.type}`);
+    console.log(e.target.value);
+    // console.log(taskInput.value);
+    // e.preventDefault();
+
+}
+
+taskInput.addEventListener("focus", runEvent);
+
+// const clearBtn=document.querySelector(".clear-tasks");
+// const card= document.querySelector(".card");
+// const heading = document.querySelector("h5");
+
+// //Event Handler
+// function runEvent(e){
+//     console.log(`EVENT TYPE: ${e.type}`);
+//     heading.textContent = `Mouse(x): ${e.offsetX} Mouse(y):${e.offsetY}`;
+//     document.body.style.backgroundColor = `rgb(${e.offsetX}, ${e.offsetY}, 40)`;
+// }
+
+// clearBtn.addEventListener("click",runEvent);
+// clearBtn.addEventListener("dblclick", runEvent);
+// clearBtn.addEventListener("mousedown", runEvent);
+// clearBtn.addEventListener("mouseup", runEvent);
+// clearBtn.addEventListener("mouseenter", runEvent);
+// clearBtn.addEventListener("mouseleave", runEvent);
+// clearBtn.addEventListener("mouseover", runEvent);
+// clearBtn.addEventListener("mouseout", runEvent);
+card.addEventListener("mousemove", runEvent);
+
+// let val;
+// const list =document.querySelector("ul.collection");
+// console.log(list);
+// const listItem = document.querySelector("li.collection-item:first-child");
+// val = listItem;
+// val= list;
 
 
-val = list.childNodes;
+// val = list.childNodes;
 
-val=list.children[1];
-val=list.firstChild;
-val=list.firstElementChild;
+// val=list.children[1];
+// val=list.firstChild;
+// val=list.firstElementChild;
 
-console.log(val);
+// console.log(val);
 
 // const item = document.getElementsByClassName("collection-item");
 // // console.log(item);

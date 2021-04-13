@@ -10,9 +10,6 @@ document.getElementById("loan-form").addEventListener("submit", function(e){
 function calculateResults(){
     console.log("Calculating....");
     calculate();
-
-
-    
 }
 
 function calculate(){

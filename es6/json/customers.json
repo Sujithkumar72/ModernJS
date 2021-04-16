@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name":"Sachin",
+        "team": "INDIA"
+    },
+    {
+        "id": 2,
+        "name":"Brain Lara",
+        "team": "WEST INDIES"
+    },
+    {
+        "id": 3,
+        "name":"Gayle",
+        "team": "WEST INDIES"
+    },
+    {
+        "id": 4,
+        "name":"Jac. KALLIS",
+        "team": "South Africa"
+    },
+    {
+        "id": 5,
+        "name":"Sanath JayaSuriya",
+        "team": "SRILANKA"
+    },
+    {
+        "id": 6,
+        "name":"SEHWAG",
+        "team": "INDIA"
+    },
+    {
+        "id": 7,
+        "name":"Lance KLUSNER",
+        "team": "South Africa"
+    }
+]
